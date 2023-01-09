@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="130dp"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/item_uyeekle_grup_grupadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="Grup Adı"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/item_uyeekle_grup_resmi"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/grup" />
+
+    <TextView
+        android:id="@+id/item_uyeekle_grup_aciklama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="Açıklama" />
+</LinearLayout>
